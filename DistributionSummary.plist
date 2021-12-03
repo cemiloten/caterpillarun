@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>caterpillarun.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>0</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>5E2C3CD7A2F8160516D3D7DB6A7100171E4EA505</string>
+				<key>dateExpires</key>
+				<string>02/11/2022</string>
+				<key>type</key>
+				<string>Cloud Managed Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1.0</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>5E2C3CD7A2F8160516D3D7DB6A7100171E4EA505</string>
+						<key>dateExpires</key>
+						<string>02/11/2022</string>
+						<key>type</key>
+						<string>Cloud Managed Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>UnityFramework.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>BQ84VY778A</string>
+						<key>name</key>
+						<string>Cemil Oten</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>BQ84VY778A.com.cemiloten.caterpillarun</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>BQ84VY778A</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>BQ84VY778A.com.cemiloten.caterpillarun</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>caterpillarun.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>abc11d27-733b-4dcf-bae0-4693ff7db38a</string>
+				<key>dateExpires</key>
+				<string>02/11/2022</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.cemiloten.caterpillarun</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>BQ84VY778A</string>
+				<key>name</key>
+				<string>Cemil Oten</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>0.2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
