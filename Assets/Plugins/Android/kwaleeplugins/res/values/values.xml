@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="app_name">WebView</string>
+    <string name="default_web_client_id" translatable="false">1044379819836-j8p1r1i4hrjl34ik0boeu39l99dciadv.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://playphoto-28d22.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1044379819836</string>
+    <string name="google_api_key" translatable="false">AIzaSyCUunBCFO0G39FWDwVDBFTHvhc0LTXLMKw</string>
+    <string name="google_app_id" translatable="false">1:1044379819836:android:ccb87797d97ba6b5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCUunBCFO0G39FWDwVDBFTHvhc0LTXLMKw</string>
+    <string name="google_storage_bucket" translatable="false">playphoto-28d22.appspot.com</string>
+</resources>

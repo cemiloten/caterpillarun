@@ -26,7 +26,6 @@ public class GameManager : MonoBehaviour {
             return;
         }
 
-        TinySauce.OnGameStarted();
         SetState(GameState.InGame);
     }
 
@@ -43,7 +42,6 @@ public class GameManager : MonoBehaviour {
             return;
         }
 
-        TinySauce.OnGameFinished(score);
         SetState(GameState.EndWin);
     }
 

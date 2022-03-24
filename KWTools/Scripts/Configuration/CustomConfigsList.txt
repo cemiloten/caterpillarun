@@ -1,0 +1,8 @@
+AndroidVersionCode.txt
+Version.txt
+BuildConfig.txt
+CoreConfig.json onSave:GenerateCoreConfig.py
+ChinaConfigs.json button:"Generate_Fastlane"[GenerateFastlaneMenuItem.GenerateFastlaneAndGemfile]
+LocalisationSources.json
+ProjectDefinitions.txt button:"Set_UAT"[KwaleeCoreMenuItems.SetProjectDefinitionsUat]
+AdNetworksConfig.json onSave:GenerateAdNetworkIds.py

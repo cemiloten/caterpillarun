@@ -1,0 +1,77 @@
+{
+   "live": {
+      "language_fallbacks": {
+         "ar": ["ar"],
+         "da": ["da"],
+         "de": ["de"],
+         "en_GB": ["en", "en_GB"],
+         "es": ["es"],
+         "fr": ["fr"],
+         "it": ["it"],
+         "ja": ["ja"],
+         "ko": ["ko"],
+         "nl": ["nl", "an"],
+         "pl": ["pl"],
+         "pt_PT": ["pt", "pt_PT"],
+         "ru": ["ru"],
+         "sv": ["sv"],
+         "tr": ["tr"],
+         "zh_Hans": ["zh_CN", "zh_Hans"],
+         "zh_Hant": ["zh_Hant", "zh_TW"]
+      },
+      "master_language": "en_GB",
+      "supported_languages": ["de", "fr", "it", "es", "pt_PT", "ru", "zh_Hans", "zh_Hant", "ja", "ko", "ar", "tr", "nl", "da", "pl", "sv"],
+      "test_language": "",
+      "url": ""
+   },
+   "qa": {
+      "language_fallbacks": {
+         "ar": ["ar"],
+         "da": ["da"],
+         "de": ["de"],
+         "en_GB": ["en", "en_GB"],
+         "es": ["es"],
+         "fr": ["fr"],
+         "it": ["it"],
+         "ja": ["ja"],
+         "ko": ["ko"],
+         "nl": ["nl", "an"],
+         "pl": ["pl"],
+         "pt_PT": ["pt", "pt_PT"],
+         "ru": ["ru"],
+         "sv": ["sv"],
+         "tr": ["tr"],
+         "zh_Hans": ["zh_CN", "zh_Hans"],
+         "zh_Hant": ["zh_Hant", "zh_TW"]
+      },
+      "master_language": "en_GB",
+      "supported_languages": ["de", "fr", "it", "es", "pt_PT", "ru", "zh_Hans", "zh_Hant", "ja", "ko", "ar", "tr", "nl", "da", "pl", "sv"],
+      "test_language": "",
+      "url": ""
+   },
+   "uat": {
+      "language_fallbacks": {
+         "ar": ["ar"],
+         "da": ["da"],
+         "de": ["de"],
+         "en_GB": ["en", "en_GB"],
+         "es": ["es"],
+         "fr": ["fr"],
+         "it": ["it"],
+         "ja": ["ja"],
+         "ko": ["ko"],
+         "nl": ["nl", "an"],
+         "pl": ["pl"],
+         "pt_PT": ["pt", "pt_PT"],
+         "ru": ["ru"],
+         "sv": ["sv"],
+         "tr": ["tr"],
+         "zh_Hans": ["zh_CN", "zh_Hans"],
+         "zh_Hant": ["zh_Hant", "zh_TW"]
+      },
+      "master_language": "en_GB",
+      "supported_languages": ["de", "fr", "it", "es", "pt_PT", "ru", "zh_Hans", "zh_Hant", "ja", "ko", "ar", "tr", "nl", "da", "pl", "sv"],
+      "test_language": "",
+      "url": ""
+   }
+}

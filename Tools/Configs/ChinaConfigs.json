@@ -1,0 +1,64 @@
+{
+   "BuildConfig.json": {
+      "MARKET": "0"
+   },
+   "EmbededCoreConfig.cs": {
+      "ADS_ADMOB_APP_ID_IOS": "",
+      "AUTH_GAME_EDITION_ID_IOS": "chinaios",
+      "GAME_NAME": "",
+      "IOS_PACKAGE_NAME": "",
+      "ITUNES_APP_ID": "",
+      "MOPUB_AD_UNIT_BANNER_IOS": "",
+      "MOPUB_AD_UNIT_INTERSTITIAL_IOS": "",
+      "MOPUB_AD_UNIT_REWARD_IOS": "",
+      "MOPUB_ADCOLONY_APP_ID_IOS": "",
+      "MOPUB_ADCOLONY_ZONE_ID_INTERSTITIAL_IOS": "",
+      "MOPUB_ADCOLONY_ZONE_ID_REWARD_IOS": "",
+      "MOPUB_ADMOB_APP_ID_IOS": "",
+      "MOPUB_APPLOVIN_SDK_KEY_IOS": "",
+      "MOPUB_CHARTBOOST_APP_ID_IOS": "",
+      "MOPUB_CHARTBOOST_APP_SIGNATURE_IOS": "",
+      "MOPUB_FYBER_APP_ID_IOS": "",
+      "MOPUB_INMOBI_ACCOUNT_ID_IOS": "",
+      "MOPUB_IRONSOURCE_APP_KEY_IOS": "",
+      "MOPUB_MINTEGRAL_APP_ID_IOS": "",
+      "MOPUB_OGURY_ASSET_KEY_IOS": "",
+      "MOPUB_SNAP_APP_ID_IOS": "",
+      "MOPUB_TAPJOY_SDK_KEY_IOS": "",
+      "MOPUB_TIKTOK_APP_KEY_IOS": "",
+      "MOPUB_UNITY_GAME_ID_IOS": "",
+      "MOPUB_VERIZON_SITE_ID_IOS": "",
+      "MOPUB_VUNGLE_APP_ID_IOS": "",
+      "SUPERSONIC_APP_KEY_IOS": ""
+   },
+   "FacebookSettings.asset": {
+      "appIds": "",
+      "appLabels": ""
+   },
+   "GoogleService-Info.plist": {
+      "ADMOB_APP_ID": "",
+      "BUNDLE_ID": "",
+      "CLIENT_ID": "",
+      "GOOGLE_APP_ID": "",
+      "REVERSED_CLIENT_ID": ""
+   },
+   "manifest.json": {
+      "com.unity.purchasing": ""
+   },
+   "ProjectDefinitions.txt": {
+      "CHINA": "1",
+      "NO_IAPS": "1",
+      "UNITY_STORE": "0"
+   },
+   "ProjectDefinitions.txt.live": {
+      "CHINA": "1",
+      "NO_IAPS": "1",
+      "UNITY_STORE": "0"
+   },
+   "ProjectSettings.asset": {
+      "cloudProjectId": "",
+      "iPhone": "",
+      "projectName": "",
+      "scriptingDefineSymbols": "NO_IAPS,CHINA"
+   }
+}

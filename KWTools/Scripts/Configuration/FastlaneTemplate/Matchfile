@@ -1,0 +1,8 @@
+git_url("ssh://git@gitlab2.kwalee.local:30001/devops/match.git")
+
+storage_mode("git")
+
+type("adhoc")
+
+app_identifier(["{{BUNDLE_ID}}"])
+username("serversupport@kwalee.com")

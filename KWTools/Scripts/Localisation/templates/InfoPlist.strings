@@ -1,0 +1,3 @@
+{% for data in data_array %}
+"{{data.id}}" = "{{data.name}}";
+{% endfor %}

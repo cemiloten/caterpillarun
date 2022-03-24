@@ -1,0 +1,24 @@
+#!/bin/bash
+cd "$(dirname "$0")"
+
+branch=${1:-'HEAD'}
+versionNumber=$(cat ~/PublishingSystem/Games.Configs/$1/Version.txt)
+buildNumber=$(git rev-list HEAD --count)
+# Adding 100 because of older releases having higher number after a fix (417638d402071fb8a5fe463ac7e6fb93425ccee1)
+buildNumber=$(($buildNumber + 100))
+mkdir ../tmp
+
+echo -n $versionNumber
+echo -n .
+echo $buildNumber
+
+echo -n $versionNumber > ../tmp/WaffleBuildVersion.txt
+echo -n . >> ../tmp/WaffleBuildVersion.txt
+echo -n $buildNumber >> ../tmp/WaffleBuildVersion.txt
+
+echo $versionNumber > ../../Tools/Configs/Version.txt
+
+echo $buildNumber > ../tmp/AndroidVersionCode.txt
+
+cat ~/PublishingSystem/Games.Configs/$1/EmbededVersion.cs | sed s/\".*\"/\"$versionNumber.$buildNumber\"/ > ~/PublishingSystem/Games.Configs/$1/EmbededVersion.cs.tmp
+mv ~/PublishingSystem/Games.Configs/$1/EmbededVersion.cs.tmp ~/PublishingSystem/Games.Configs/$1/EmbededVersion.cs
