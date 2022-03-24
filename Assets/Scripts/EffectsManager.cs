@@ -42,7 +42,7 @@ public class EffectsManager : SingletonMonoBehaviour<EffectsManager> {
         eatFX.Play();
     }
 
-    private void OnGrewCocoonToMaxSize() {
+    private void OnGrewCocoonToMaxSize(int score) {
         confetti.Play();
     }
 

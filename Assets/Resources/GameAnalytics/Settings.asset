@@ -1,0 +1,356 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f78192cec1344d83a177ac5e6139ab3, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  TotalMessagesSubmitted: 0
+  TotalMessagesFailed: 0
+  DesignMessagesSubmitted: 0
+  DesignMessagesFailed: 0
+  QualityMessagesSubmitted: 0
+  QualityMessagesFailed: 0
+  ErrorMessagesSubmitted: 0
+  ErrorMessagesFailed: 0
+  BusinessMessagesSubmitted: 0
+  BusinessMessagesFailed: 0
+  UserMessagesSubmitted: 0
+  UserMessagesFailed: 0
+  CustomArea: 
+  gameKey:
+  - 9c8e0a61bccb32c3936ad14393065b01
+  secretKey:
+  - c733acf81aafcf4af0364b4f1518fb8d3c1cf2c4
+  Build:
+  - 0.1
+  SelectedPlatformOrganization:
+  - 
+  SelectedPlatformStudio:
+  - 
+  SelectedPlatformGame:
+  - 
+  SelectedPlatformGameID: ffffffff
+  SelectedOrganization: 00000000
+  SelectedStudio: 00000000
+  SelectedGame: 00000000
+  NewVersion: 7.3.14
+  Changes: '7.3.14
+
+    - small fix
+
+
+    7.3.13
+
+    - fixed crash for android builds
+
+
+    7.3.12
+
+    -
+    removed imei identifiers and other alternative identifiers from user identifier
+    logic (android)
+
+
+    7.3.11
+
+    - updated dependency to external dependency
+    resolver
+
+
+    7.3.10
+
+    - adding missing .meta file for upm release
+
+    -
+    switched to using openupm for scoped registry when using upm, please update the
+    upm setup for the unity sdk
+
+
+    7.3.9
+
+    - fixed upm package.json
+
+
+    7.3.8
+
+    -
+    fixed upm dependecy
+
+
+    7.3.7
+
+    - added depedencies.xml for upm release
+
+
+    7.3.6
+
+    -
+    fixed playmaker bugs
+
+
+    7.3.5
+
+    - changed settings to have FPS events turned
+    off by default
+
+
+    7.3.4
+
+    - added error events to be sent for invalid custom
+    event fields used
+
+    - added optional mergeFields argument to event methods
+    to merge with global custom fields instead of overwrite them
+
+
+    7.3.3
+
+    -
+    playmaker fixes
+
+
+    7.3.2
+
+    - fixed missing custom event fields for when
+    trying to fix missing session end events
+
+
+    7.3.1
+
+    - fixed editor ui bug
+    with games with the same name
+
+
+    7.3.0
+
+    - added global custom event fields
+    function to allow to add custom fields to events sent automatically by the SDK
+
+
+    7.2.1
+
+    -
+    added functionality to force a new user in a/b testing without having to uninstall
+    app first, simply use custom user id function to set a new user id which hasn''t
+    been used yet
+
+
+    7.2.0
+
+    - added support for admob impression events
+
+
+    7.1.1
+
+    -
+    fixed build errors for desktop platforms
+
+
+    7.1.0
+
+    - added custom event
+    fields feature
+
+
+    7.0.5
+
+    - updated hyperbid ilrd integration
+
+
+    7.0.4
+
+    -
+    added ios part for aequus ilrd integration
+
+
+    7.0.3
+
+    - renamed ATT method
+    name to avoid dupplicate symbols
+
+
+    7.0.2
+
+    - fixes to ILRD integrations
+
+
+    7.0.1
+
+    -
+    updated ILRD integrations
+
+
+    7.0.0
+
+    - Changed user identifier logic in
+    preparation for Google changes to GAID. User id for a new install is now a randomised
+    GUID. Existing installs that update SDK will continue using previous identifier
+    logic. It is recommended to update as soon as possible to reduce impact on calculated
+    metrics.
+
+
+    6.7.1
+
+    - fixes to max irld integration
+
+
+    6.7.0
+
+    -
+    added option to enable native exceptions error reporting for android and ios
+
+
+    6.6.4
+
+    -
+    prepared for google advertising identifier changes (will not use google advertising
+    identifier when user has opted out) (android)
+
+    - it should now be possible
+    to not show idfa consent dialog if you don''t have any third party code that
+    needs to use idfa
+
+
+    6.6.3
+
+    - removed unnecessary append of stacktrace
+    when stacktrace is missing from warning/error messages sent to GA backend
+
+
+    6.6.2
+
+    -
+    fixed ios compile errors
+
+    - fixed ILRD related compile error
+
+    - added
+    ios_testflight to events coming from testflight builds
+
+
+    6.6.1
+
+    - added
+    ILRD support for Aequus SDK
+
+    - fixed ILRD related bug
+
+
+    6.6.0
+
+    -
+    more fixes for using ILRD when using SDK from UPM
+
+    - OBS now you need to
+    use GameAnalyticsILRD class to subscribe to ILRD impression events (also download
+    latest GA ILRD .unitypackage to get it to work if using SDK from UPM, see docs
+    for more info)
+
+    - prepared for google advertising identifier changes (will
+    not use google advertising identifier when user has opted out) (android)
+
+
+    6.5.8
+
+    -
+    fixed compile issues when using ILRD with SDK from UPM (now you have to download
+    a seperate .unitypackage when using ILRD with SDK from UPM)
+
+
+    6.5.7
+
+    -
+    added missing architectures of ios libraries
+
+
+    6.5.6
+
+    - fixed crash bug
+    for ios
+
+
+    6.5.5
+
+    - reverted back to v6.5.2 as crashes happen for ios
+    which have not been narrowed down to what is causing this yet
+
+
+    6.5.4
+
+    -
+    fixed typo error
+
+
+    6.5.3
+
+    - added support for max in impression events
+
+    -
+    fixed dupplicate symbol on ios
+
+
+    6.5.2
+
+    - fixed crashes for android devices
+    without google play API (android)'
+  SignUpOpen: 1
+  StudioName: opixel
+  GameName: caterpillarun
+  OrganizationName: 
+  OrganizationIdentifier: 
+  EmailGA: 
+  IntroScreen: 1
+  InfoLogEditor: 0
+  InfoLogBuild: 0
+  VerboseLogBuild: 0
+  UseManualSessionHandling: 0
+  SendExampleGameDataToMyGame: 0
+  UseIMEI: 0
+  InternetConnectivity: 0
+  CustomDimensions01: []
+  CustomDimensions02: []
+  CustomDimensions03: []
+  ResourceItemTypes: []
+  ResourceCurrencies: []
+  LastCreatedGamePlatform: 0
+  Platforms: 0b000000
+  CurrentInspectorState: 0
+  ClosedHints: 
+  DisplayHints: 0
+  DisplayHintsScrollState: {x: 0, y: 0}
+  Logo: {fileID: 0}
+  UpdateIcon: {fileID: 0}
+  InfoIcon: {fileID: 0}
+  DeleteIcon: {fileID: 0}
+  GameIcon: {fileID: 0}
+  HomeIcon: {fileID: 0}
+  InstrumentIcon: {fileID: 0}
+  QuestionIcon: {fileID: 0}
+  UserIcon: {fileID: 0}
+  AmazonIcon: {fileID: 0}
+  GooglePlayIcon: {fileID: 0}
+  iosIcon: {fileID: 0}
+  macIcon: {fileID: 0}
+  windowsPhoneIcon: {fileID: 0}
+  UsePlayerSettingsBuildNumber: 0
+  SubmitErrors: 1
+  MaxErrorCount: 10
+  SubmitFpsAverage: 1
+  SubmitFpsCritical: 1
+  IncludeGooglePlay: 1
+  FpsCriticalThreshold: 20
+  FpsCirticalSubmitInterval: 1
+  PlatformFoldOut: 01
+  CustomDimensions01FoldOut: 0
+  CustomDimensions02FoldOut: 0
+  CustomDimensions03FoldOut: 0
+  ResourceItemTypesFoldOut: 0
+  ResourceCurrenciesFoldOut: 0

@@ -228,6 +228,6 @@ public class PlayerController : SingletonMonoBehaviour<PlayerController> {
         cocoonController.Disappear();
         butterflyController.Appear(cocoonController.CocoonTransform, BodyCount);
 
-        GameEvents.OnGrewCocoonToMaxSize();
+        GameEvents.OnGrewCocoonToMaxSize(BodyCount);
     }
 }

@@ -25,7 +25,8 @@ public class GameManager : MonoBehaviour {
         if (State != GameState.Home) {
             return;
         }
-        
+
+        TinySauce.OnGameStarted();
         SetState(GameState.InGame);
     }
 
@@ -33,15 +34,16 @@ public class GameManager : MonoBehaviour {
         if (State != GameState.EndWin) {
             return;
         }
-        
+
         SetState(GameState.Home);
     }
 
-    private void OnGrewCocoonToMaxSize() {
+    private void OnGrewCocoonToMaxSize(int score) {
         if (State != GameState.InGame) {
             return;
         }
 
+        TinySauce.OnGameFinished(score);
         SetState(GameState.EndWin);
     }
 

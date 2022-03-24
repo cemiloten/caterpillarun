@@ -43,7 +43,7 @@ public class CameraController : SingletonMonoBehaviour<CameraController> {
         }
     }
 
-    private void OnGrewCocoonToMaxSize() {
+    private void OnGrewCocoonToMaxSize(int score) {
         caterpillarVirtualCamera.Priority = 0;
         butterflyVirtualCamera.Priority = 10;
     }

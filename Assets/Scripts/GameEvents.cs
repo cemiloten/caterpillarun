@@ -24,8 +24,8 @@ public static class GameEvents {
     public static event Action GrewCocoonIncrement;
     public static void OnGrewCocoonIncrement() => GrewCocoonIncrement?.Invoke();
 
-    public static event Action GrewCocoonToMaxSize;
-    public static void OnGrewCocoonToMaxSize() => GrewCocoonToMaxSize?.Invoke();
+    public static event Action<int> GrewCocoonToMaxSize;
+    public static void OnGrewCocoonToMaxSize(int score) => GrewCocoonToMaxSize?.Invoke(score);
 
 
     public static event Action<int> BodyCountChanged;
